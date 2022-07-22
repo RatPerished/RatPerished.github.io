@@ -1,13 +1,21 @@
 body {
 	background-color: #333333;
 }
-h1 {
+h1, h2 {
 	color: #FFFFFF;
+	text-align: center;
 }
-h2 {
-	color: #FCFCFC;
-}
-p {
+* {
 	color: #FAFAFA;
+	padding: 5px;
 }
-
+ul {
+	padding-left: 2cm;
+}
+*.sitelenpona {
+	font-family: sitelenpona;
+}
+@font-face {
+	font-family: sitelenpona;
+	src: url(fonts/sitelen_pona.otf);
+}
